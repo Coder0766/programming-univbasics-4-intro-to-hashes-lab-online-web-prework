@@ -20,7 +20,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-    while { hash => key} = true value 
+    hash {|hash, key| = true do {value}
   else nil
 end
 
