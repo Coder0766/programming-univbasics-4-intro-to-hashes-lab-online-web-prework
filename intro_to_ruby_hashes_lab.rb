@@ -20,8 +20,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash[key] == true do hash
-  else nil
+ # if hash[key] == true do hash
+  #else nil
+  hash[key]
 end
 
 # describe "reading data from a hash" do
